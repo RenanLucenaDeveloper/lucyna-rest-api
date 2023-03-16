@@ -23,11 +23,11 @@ const UserSchema = new mongoose.Schema({
   },
   cart: {
     type: Array,
-    default: ['empty'],
+    default: [['empty']],
   },
   library: {
     type: Array,
-    default: ['empty'],
+    default: [['empty']],
   },
 });
 
